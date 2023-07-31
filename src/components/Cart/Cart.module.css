@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     max-height:20rem;
-    overflow:auto;
+    overflow:scroll;
 
 }
 .total {
@@ -30,4 +30,8 @@
 .actions button:active{
     background-color: #8a2b06;
     color:white;
+}
+.price{
+  display:flex;
+  justify-content: space-between;
 }
