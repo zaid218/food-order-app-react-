@@ -18,8 +18,9 @@ const Cart = (props) => {
   const cartItemAddHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
-
+  cartCtx.items.map((item) => console.log(item.amount));
   const cartItems = (
+    
     <ul className={classes["cart-items"]}>
       {cartCtx.items.map((item) => (
         <CartItem
