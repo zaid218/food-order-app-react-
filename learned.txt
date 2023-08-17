@@ -1,0 +1,11 @@
+1.usecontext
+2.useReducer
+3.createPortal
+4.useRef
+5..<input ref={ref} {...props.input} />
+6..const price = `₹${props.price.toFixed(2)}`;
+7..reduce
+8..bump classes
+9...timer cleartimer 
+
+10..firebase

@@ -1,23 +1,14 @@
-.input{
-    display:flex;
-    align-items:center;
-    margin-bottom:0.6rem;
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
- .input label {
+.input label {
   font-weight: bold;
   margin-right: 1rem;
-} 
-.input input{
-    text-align: center;
-    width:3rem;
-    border-radius: 5px;
-    border:1px solid #d8d8d8;
-    font:inherit;
-    padding-left: ;
 }
 
-/*
 .input input {
   width: 3rem;
   border-radius: 5px;
@@ -25,16 +16,3 @@
   font: inherit;
   padding-left: 0.5rem;
 }
-
-.input {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
- .input label {
-  font-weight: bold;
-  margin-right: 1rem;
-} 
-
- */

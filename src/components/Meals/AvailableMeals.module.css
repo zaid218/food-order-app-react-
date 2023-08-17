@@ -3,13 +3,26 @@
   width: 90%;
   margin: 2rem auto;
   animation: meals-appear 1s ease-out forwards;
-  
-} 
+}
 
 .meals ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.err {
+  text-align: center;
+  font-size: 40px;
+}
+.MealsLoading{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+.MealsError{
+  text-align: center;
+  color : red;
+  font-size: 30px;
 }
 
 @keyframes meals-appear {
@@ -22,4 +35,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-} 
+}
